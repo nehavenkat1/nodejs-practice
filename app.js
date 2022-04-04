@@ -1,4 +1,4 @@
-const http = require('http');
+/*const http = require('http');
 
 const port = 5000;
 const hostname = 'localhost'
@@ -12,18 +12,15 @@ const server = http.createServer((req, res) => {
 server.listen(port, hostname, () => {
   console.log(`Server running at http://${hostname}:${port}/`);
 });
+*/
 
-/*
-using express
+//using express
 
-var express = require('express)
+var express = require('express')
 var app = express()
 
 app.get('/', (req, res) => {
-    res.send("hello world")
+    res.send("hello express")
 })
 
-app.listen(process.env.PORT || 3000)
-
-
-*/
+app.listen(process.env.PORT || 5000)
